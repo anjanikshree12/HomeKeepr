@@ -25,18 +25,32 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#" data-toggle="modal" data-target="#exampleModal3"> Admin Sign In</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Admin
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal3">Sign In</a>
+                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">Sign Up</a>
+                  <div class="dropdown-divider"></div>
+                </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#" data-toggle="modal" data-target="#exampleModal4"> User Sign In</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  User
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal4">Sign In</a>
+                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal2">Sign Up</a>
+                  <div class="dropdown-divider"></div>
+                </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Admin Sign Up</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal2">User Sign Up</a>
-              </li>
+             <li class="nav-item">
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search for your City" aria-label="Search for your city">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+              </form>
+             </li>
               <!--Modal of User Sign In-->
               <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -245,6 +259,7 @@
                 </div>
               </div>
             </ul>
+            
           </div>
         </div>
       </nav>
@@ -254,11 +269,11 @@
         <p class="lead">Someone out there loves cleaning Rooms as much as you hate doing them. Hire a one-time or recurring cleaning service today.</p>
         <hr class="my-4">
         <a class="btn btn-success btn-lg" href="#"> Find my Hostel Keeper</a>
-        <p class="lead mt-2">Are you looking for a housekeeping job? Apply Now.</p>
+        <p class="lead mt-2">Are you looking for a hostelkeeping job? Apply Now.</p>
       </div>
       <!--After Jumbotron-->
       <div class="container">
-        <h3 class="text-center" style="font-size: 55px;">Here's How It Works</h3>
+        <h3 class="text-center" style="font-size: 50px;">Here's How It Works</h3>
         <div class="row mt-5">
           <div class="col-12 col-sm-4"> 
           <p>STEP 1</p>
